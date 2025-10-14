@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Hasil Parsing - AYVA</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f7f7fa;
+      padding: 40px;
+    }
+    pre {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    a {
+      color: #d6336c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hasil Ekstraksi Data</h1>
+  <pre>{{ data | tojson(indent=2) }}</pre>
+  <p><a href="/">← Kembali ke halaman utama</a></p>
+</body>
+</html>

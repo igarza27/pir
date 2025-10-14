@@ -1,0 +1,4 @@
+- [x] Add python-dotenv to requirements.txt
+- [x] Edit template/results.html to fix JavaScript linter errors by moving Jinja data to a data attribute and parsing in JS
+- [x] Install dependencies using pip install -r requirements.txt
+- [x] Verify that workspace diagnostics are resolved
